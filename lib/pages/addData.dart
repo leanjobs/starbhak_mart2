@@ -7,7 +7,7 @@ class addData extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 227, 239, 252),
+        backgroundColor: Color.fromARGB(255, 241, 248, 255),
       body: ListView(
         children: [
           SingleChildScrollView(

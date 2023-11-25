@@ -40,7 +40,7 @@ class masterBar extends StatelessWidget {
             "Master",
             style: TextStyle(
               fontSize: 25,
-              color: Colors.black,
+              color: Color(0xff47526D),
               fontWeight: FontWeight.bold,
             ),
           ),

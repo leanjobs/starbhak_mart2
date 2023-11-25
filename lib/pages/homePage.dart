@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
-        backgroundColor: Color.fromARGB(255, 227, 239, 252),
+        backgroundColor: Color.fromARGB(255, 241, 248, 255),
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.only(top: 25),

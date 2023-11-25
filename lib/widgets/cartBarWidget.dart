@@ -33,14 +33,17 @@ class cartBarWidget extends StatelessWidget {
                   )
                 ],
               ),
-              child: Icon(CupertinoIcons.back),
+              child: Icon(
+                CupertinoIcons.back,
+                color: Color(0xff47526D),
+              ),
             ),
           ),
           Text(
             "Cart",
             style: TextStyle(
               fontSize: 25,
-              color: Colors.black,
+              color: Color(0xff47526D),
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -59,7 +62,10 @@ class cartBarWidget extends StatelessWidget {
                   )
                 ],
               ),
-              child: Icon(CupertinoIcons.person),
+              child: Icon(
+                CupertinoIcons.person,
+                color: Color(0xff47526D),
+              ),
             ),
           ),
         ],

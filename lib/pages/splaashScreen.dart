@@ -30,7 +30,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 227, 239, 252),
+      backgroundColor: Color.fromARGB(255, 241, 248, 255),
       body: Center(
         child: Text(
           "Starbhak Mart",

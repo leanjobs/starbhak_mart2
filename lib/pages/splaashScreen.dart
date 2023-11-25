@@ -31,15 +31,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 241, 248, 255),
-      body: Center(
-        child: Text(
-          "Starbhak Mart",
-          style: TextStyle(
-              color: Color(0xff47526D),
-              fontSize: 30,
-              fontWeight: FontWeight.bold),
-        ),
-      ),
+      body: Center(child: Image.asset("assets/SMLOGO.png")),
     );
   }
 }

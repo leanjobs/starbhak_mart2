@@ -9,9 +9,9 @@ class CategoriesWidget extends StatelessWidget {
       labelStyle: TextStyle(fontSize: 20),
       labelPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
       tabs: [
-        _buildCategoryColumn("assets/all.jpeg", "All"),
-        _buildCategoryColumn("assets/burger.jpg", "Food"),
-        _buildCategoryColumn("assets/teh.jpg", "Drink"),
+        _buildCategoryColumn("assets/food.png", "All"),
+        _buildCategoryColumn("assets/fries.png", "Food"),
+        _buildCategoryColumn("assets/icetea.png", "Drink"),
       ],
     );
   }
@@ -51,7 +51,7 @@ class CategoriesWidget extends StatelessWidget {
             label,
             style: TextStyle(
               fontSize: 15,
-              color: Colors.black,
+              color: Color(0xff47526D),
             ),
           ),
         ],

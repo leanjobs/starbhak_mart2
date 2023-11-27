@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:starbhak_mart2/widgets/AppBarWidget.dart';
+import 'package:starbhak_mart2/widgets/drawer.dart';
 import 'package:starbhak_mart2/widgets/drinkWidget.dart';
 import 'package:starbhak_mart2/widgets/navBarWidget.dart';
 
@@ -40,6 +41,8 @@ class HomePage extends StatelessWidget {
           ),
         ),
         bottomNavigationBar: navBarWidget(),
+      drawer: drawer(),
+      
       ),
     );
   }

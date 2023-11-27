@@ -6,7 +6,7 @@ class cartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 241, 248, 255),
+      backgroundColor: Color.fromARGB(255, 241, 248, 255),
       body: ListView(
         children: [
           SingleChildScrollView(
@@ -30,10 +30,10 @@ class cartPage extends StatelessWidget {
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(20),
                               child: Image.asset(
-                                "assets/burger.jpg",
+                                "assets/burger.png",
                                 width: 100,
                                 height: 100,
-                                fit: BoxFit.cover,
+                                fit: BoxFit.contain,
                               ),
                             ),
                           ),
@@ -64,11 +64,11 @@ class cartPage extends StatelessWidget {
                                                   color: Color(0xff47526D)),
                                             ),
                                             Text(
-                                              "Rp 50.000",
+                                              "Rp 20.000",
                                               style: TextStyle(
                                                 fontSize: 15,
                                                 fontWeight: FontWeight.normal,
-                                                color: Colors.grey,
+                                                color: Color(0xff47526D),
                                               ),
                                             ),
                                           ],
@@ -173,10 +173,10 @@ class cartPage extends StatelessWidget {
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(20),
                               child: Image.asset(
-                                "assets/teh.jpg",
+                                "assets/icetea.png",
                                 width: 100,
                                 height: 100,
-                                fit: BoxFit.cover,
+                                fit: BoxFit.contain,
                               ),
                             ),
                           ),
@@ -200,7 +200,7 @@ class cartPage extends StatelessWidget {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              "Teh",
+                                              "Tea",
                                               style: TextStyle(
                                                 fontSize: 18,
                                                 fontWeight: FontWeight.bold,
@@ -208,7 +208,7 @@ class cartPage extends StatelessWidget {
                                               ),
                                             ),
                                             Text(
-                                              "Rp 50.000",
+                                              "Rp 10.000",
                                               style: TextStyle(
                                                 fontSize: 15,
                                                 fontWeight: FontWeight.normal,
@@ -317,10 +317,10 @@ class cartPage extends StatelessWidget {
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(20),
                               child: Image.asset(
-                                "assets/burger.jpg",
+                                "assets/fries.png",
                                 width: 100,
                                 height: 100,
-                                fit: BoxFit.cover,
+                                fit: BoxFit.contain,
                               ),
                             ),
                           ),
@@ -344,7 +344,7 @@ class cartPage extends StatelessWidget {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              "Burger",
+                                              "Kentang",
                                               style: TextStyle(
                                                 fontSize: 18,
                                                 fontWeight: FontWeight.bold,
@@ -352,7 +352,7 @@ class cartPage extends StatelessWidget {
                                               ),
                                             ),
                                             Text(
-                                              "Rp 50.000",
+                                              "Rp 15.000",
                                               style: TextStyle(
                                                 fontSize: 15,
                                                 fontWeight: FontWeight.normal,

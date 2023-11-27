@@ -18,6 +18,7 @@ class masterItems extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
+                  color: Color(0xff47526D),
                 ),
               ),
               Text(
@@ -56,10 +57,10 @@ class masterItems extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: Image.asset(
-                  "assets/burger.jpg",
+                  "assets/burger.png",
                   height: 80,
                   width: 80,
-                  fit: BoxFit.fitHeight,
+                  fit: BoxFit.contain,
                 ),
               ),
               Text(
@@ -67,7 +68,7 @@ class masterItems extends StatelessWidget {
                 style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
               ),
               Text(
-                "Rp 10.000,00",
+                "Rp 20.000,00",
                 style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
               ),
               Container(
@@ -93,10 +94,10 @@ class masterItems extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: Image.asset(
-                  "assets/teh.jpg",
+                  "assets/icetea.png",
                   height: 80,
                   width: 80,
-                  fit: BoxFit.fitHeight,
+                  fit: BoxFit.contain,
                 ),
               ),
               Text(
@@ -130,14 +131,236 @@ class masterItems extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: Image.asset(
-                  "assets/burger.jpg",
+                  "assets/fries.png",
                   height: 80,
                   width: 80,
-                  fit: BoxFit.fitHeight,
+                  fit: BoxFit.contain,
                 ),
               ),
               Text(
-                "Burger",
+                "Kentang",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Text(
+                "Rp 15.000,00",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Container(
+                // padding: EdgeInsets.symmetric(horizontal: 5),
+                alignment: Alignment.center,
+                child: Icon(
+                  CupertinoIcons.trash,
+                  size: 35,
+                  color: Colors.red,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Divider(
+          color: Color(0xff47526D),
+        ),
+        Container(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  "assets/hotdog.png",
+                  height: 80,
+                  width: 80,
+                  fit: BoxFit.contain,
+                ),
+              ),
+              Text(
+                "Hotdog",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Text(
+                "Rp 20.000,00",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Container(
+                // padding: EdgeInsets.symmetric(horizontal: 5),
+                alignment: Alignment.center,
+                child: Icon(
+                  CupertinoIcons.trash,
+                  size: 35,
+                  color: Colors.red,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Divider(
+          color: Color(0xff47526D),
+        ),
+        Container(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  "assets/pizza.png",
+                  height: 80,
+                  width: 80,
+                  fit: BoxFit.contain,
+                ),
+              ),
+              Text(
+                "Pizza",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Text(
+                "Rp 20.000,00",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Container(
+                // padding: EdgeInsets.symmetric(horizontal: 5),
+                alignment: Alignment.center,
+                child: Icon(
+                  CupertinoIcons.trash,
+                  size: 35,
+                  color: Colors.red,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Divider(
+          color: Color(0xff47526D),
+        ),
+        Container(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  "assets/ramen.png",
+                  height: 80,
+                  width: 80,
+                  fit: BoxFit.contain,
+                ),
+              ),
+              Text(
+                "Ramen",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Text(
+                "Rp 25.000,00",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Container(
+                // padding: EdgeInsets.symmetric(horizontal: 5),
+                alignment: Alignment.center,
+                child: Icon(
+                  CupertinoIcons.trash,
+                  size: 35,
+                  color: Colors.red,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Divider(
+          color: Color(0xff47526D),
+        ),
+        Container(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  "assets/sandwich.png",
+                  height: 80,
+                  width: 80,
+                  fit: BoxFit.contain,
+                ),
+              ),
+              Text(
+                "Sandwich",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Text(
+                "Rp 25.000,00",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Container(
+                // padding: EdgeInsets.symmetric(horizontal: 5),
+                alignment: Alignment.center,
+                child: Icon(
+                  CupertinoIcons.trash,
+                  size: 35,
+                  color: Colors.red,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Divider(
+          color: Color(0xff47526D),
+        ),
+        Container(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  "assets/orange.png",
+                  height: 80,
+                  width: 80,
+                  fit: BoxFit.contain,
+                ),
+              ),
+              Text(
+                "Orange",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Text(
+                "Rp 10.000,00",
+                style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
+              ),
+              Container(
+                // padding: EdgeInsets.symmetric(horizontal: 5),
+                alignment: Alignment.center,
+                child: Icon(
+                  CupertinoIcons.trash,
+                  size: 35,
+                  color: Colors.red,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Divider(
+          color: Color(0xff47526D),
+        ),
+        Container(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  "assets/cola.png",
+                  height: 80,
+                  width: 80,
+                  fit: BoxFit.contain,
+                ),
+              ),
+              Text(
+                "Cola",
                 style: TextStyle(fontSize: 15, color: Color(0xff47526D)),
               ),
               Text(

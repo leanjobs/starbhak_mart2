@@ -22,9 +22,7 @@ class itemsWidget extends StatelessWidget {
       child: Column(
         children: [
           InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, "singleItemPage");
-            },
+            onTap: () {},
             child: Container(
               margin: EdgeInsets.all(10),
               child: ClipRRect(

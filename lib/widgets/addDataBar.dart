@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:starbhak_mart2/pages/masterBarangPage.dart';
 
+
 class addDataBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -40,7 +41,9 @@ class addDataBar extends StatelessWidget {
             ),
           ),
           InkWell(
-            onTap: () {},
+            onTap: () {
+               
+            },
             child: Container(
               padding: EdgeInsets.all(10),
               decoration: BoxDecoration(

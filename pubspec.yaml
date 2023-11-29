@@ -36,4 +36,9 @@ flutter:
     - assets/orange.png
     - assets/ramen.png
     - assets/tea.png
+
+  fonts:
+    - family: poppins
+      fonts: 
+        - asset: fonts/Poppins-Bold.ttf
     

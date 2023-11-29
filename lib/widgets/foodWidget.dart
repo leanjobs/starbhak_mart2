@@ -22,9 +22,7 @@ class foodWidget extends StatelessWidget {
       child: Column(
         children: [
           InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, "singleItemPage");
-            },
+            onTap: () {},
             child: Container(
               margin: EdgeInsets.all(10),
               child: ClipRRect(
@@ -86,7 +84,7 @@ class foodWidget extends StatelessWidget {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           child: Text(
-            "All Item",
+            "Food",
             style: TextStyle(
               fontSize: 15,
               fontWeight: FontWeight.bold,

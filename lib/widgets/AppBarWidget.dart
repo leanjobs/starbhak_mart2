@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:starbhak_mart2/pages/profilePage.dart';
 
 class AppBarWidget extends StatelessWidget {
   @override
@@ -38,10 +39,16 @@ class AppBarWidget extends StatelessWidget {
               fontSize: 25,
               color: Color(0xff47526D),
               fontWeight: FontWeight.bold,
+              fontFamily: "poppins",
             ),
           ),
           InkWell(
-            onTap: () {},
+            onTap: () {
+               Navigator.pushReplacement(context,
+                  MaterialPageRoute(builder: (context) {
+                return profilePage();
+              }));
+            },
             child: Container(
               padding: EdgeInsets.all(10),
               decoration: BoxDecoration(

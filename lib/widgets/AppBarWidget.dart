@@ -7,7 +7,7 @@ class AppBarWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.symmetric(
-        vertical: 15,
+        vertical: 20,
         horizontal: 15,
       ),
       child: Row(
@@ -36,7 +36,7 @@ class AppBarWidget extends StatelessWidget {
           Text(
             "Starbhak Mart",
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 30,
               color: Color(0xff47526D),
               fontWeight: FontWeight.bold,
               fontFamily: "poppins",
@@ -44,7 +44,7 @@ class AppBarWidget extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-               Navigator.pushReplacement(context,
+              Navigator.pushReplacement(context,
                   MaterialPageRoute(builder: (context) {
                 return profilePage();
               }));

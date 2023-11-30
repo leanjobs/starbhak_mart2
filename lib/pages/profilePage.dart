@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:starbhak_mart2/widgets/cartBarWidget.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:starbhak_mart2/widgets/profileBarWidget.dart';
 
 class profilePage extends StatelessWidget {

@@ -14,6 +14,24 @@ class HomePage extends StatelessWidget {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
+        // appBar: AppBar(
+        //   backgroundColor: Color.fromARGB(255, 241, 248, 255),
+        //   title: Padding(
+        //     padding: EdgeInsets.symmetric(vertical: 25),
+        //     child: Text(
+        //       "Starbhak Mart",
+        //       style: TextStyle(
+        //         color: Color(0xff47526D),
+        //         fontWeight: FontWeight.bold,
+        //         fontSize: 30,
+        //         fontFamily: "poppins",
+        //       ),
+        //     ),
+        //   ),
+        //   iconTheme: IconThemeData(
+        //     color: Color(0xff47526D), // Warna untuk ikon hamburger
+        //   ),
+        // ),
         backgroundColor: Color.fromARGB(255, 241, 248, 255),
         body: SafeArea(
           child: Padding(
